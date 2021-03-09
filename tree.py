@@ -25,7 +25,7 @@ graph = pydotplus.graph_from_dot_data(dot_data)
 Image(graph.create_png())
 
 # # Create PDF
-# graph.write_pdf("iris.pdf")
+# graph.write_pdf("tree.pdf")
 
 # Create PNG
-graph.write_png("iris.png")
+graph.write_png("tree.png")
